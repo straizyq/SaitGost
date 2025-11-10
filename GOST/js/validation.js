@@ -1,6 +1,0 @@
-document.addEventListener('DOMContentLoaded',()=>{const form=document.getElementById('contactForm');form.addEventListener('submit',function(e){e.preventDefault();const name=form.name.value.trim();const email=form.email.value.trim();const message=form.message.value.trim();let valid=!0;function showError(input,message){const errorSpan=input.parentElement.querySelector('.error-msg');errorSpan.textContent=message;input.style.borderColor=message?'#ff6b6b':'rgba(255,255,255,0.2)'}
-if(name.length<2){showError(form.name,'Введите имя(минимум 2 символа)');valid=!1}else{showError(form.name,'')}
-const emailPattern=/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;if(!emailPattern.test(email)){showError(form.email,'Введите корректный email');valid=!1}else{showError(form.email,'')}
-if(message.length<5){showError(form.message,'Сообщение должно быть длиннее 5 символов');valid=!1}else{showError(form.message,'')}
-if(valid){form.reset();alert('✅ Сообщение успешно отправлено!')}});form.querySelectorAll('input,textarea').forEach(input=>{input.addEventListener('focus',()=>{input.style.borderColor='#a86fff'});input.addEventListener('blur',()=>{if(!input.parentElement.querySelector('.error-msg').textContent)
-input.style.borderColor='rgba(255,255,255,0.2)'})})})
