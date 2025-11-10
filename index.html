@@ -5,8 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>TechStore — Cyber Violet Clean</title>
-  <meta name="keywords"
-        content="кс1, кс2, кс3">
+  <meta name="keywords" content="кс1, кс2, кс3">
   <meta name="description" content="TechStore — демонстрационный интернет‑магазин, тёмная тема Cyber Violet.">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
@@ -41,7 +40,75 @@
     <section id="catalog" aria-labelledby="catalog-title" class="catalog">
       <h1 id="catalog-title" class="title">Каталог</h1>
       <p class="lead">Краткая витрина товаров. Нажми «В корзину», чтобы добавить товар.</p>
-      <div id="products" class="grid" aria-live="polite"></div>
+      <div id="products" class="grid" aria-live="polite">
+        <article class="card">
+          <div class="card-media"><img src="images/5463155318151313536.jpg" alt="Смартфон X1"></div>
+          <h3 class="card-title">Смартфон X1</h3>
+          <p class="card-desc">Современный смартфон с отличной камерой.</p>
+          <div class="card-row">
+            <div class="price">29 990 ₽</div>
+            <div style="display:flex;gap:8px;align-items:center">
+              <button class="btn btn-sm add" data-id="1">В корзину</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-media"><img src="images/5463155318151313536.jpg" alt="Смартфон X1"></div>
+          <h3 class="card-title">Смартфон X1</h3>
+          <p class="card-desc">Современный смартфон с отличной камерой.</p>
+          <div class="card-row">
+            <div class="price">29 990 ₽</div>
+            <div style="display:flex;gap:8px;align-items:center">
+              <button class="btn btn-sm add" data-id="1">В корзину</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-media"><img src="images/5463155318151313536.jpg" alt="Смартфон X1"></div>
+          <h3 class="card-title">Смартфон X1</h3>
+          <p class="card-desc">Современный смартфон с отличной камерой.</p>
+          <div class="card-row">
+            <div class="price">29 990 ₽</div>
+            <div style="display:flex;gap:8px;align-items:center">
+              <button class="btn btn-sm add" data-id="1">В корзину</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-media"><img src="images/5463155318151313536.jpg" alt="Смартфон X1"></div>
+          <h3 class="card-title">Смартфон X1</h3>
+          <p class="card-desc">Современный смартфон с отличной камерой.</p>
+          <div class="card-row">
+            <div class="price">29 990 ₽</div>
+            <div style="display:flex;gap:8px;align-items:center">
+              <button class="btn btn-sm add" data-id="1">В корзину</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-media"><img src="images/5463155318151313536.jpg" alt="Смартфон X1"></div>
+          <h3 class="card-title">Смартфон X1</h3>
+          <p class="card-desc">Современный смартфон с отличной камерой.</p>
+          <div class="card-row">
+            <div class="price">29 990 ₽</div>
+            <div style="display:flex;gap:8px;align-items:center">
+              <button class="btn btn-sm add" data-id="1">В корзину</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-media"><img src="images/5463155318151313536.jpg" alt="Смартфон X1"></div>
+          <h3 class="card-title">Смартфон X1</h3>
+          <p class="card-desc">Современный смартфон с отличной камерой.</p>
+          <div class="card-row">
+            <div class="price">29 990 ₽</div>
+            <div style="display:flex;gap:8px;align-items:center">
+              <button class="btn btn-sm add" data-id="1">В корзину</button>
+            </div>
+          </div>
+        </article>
+        
+      </div>
     </section>
 
     <section id="about" aria-labelledby="about-title" class="about">
@@ -52,37 +119,37 @@
     </section>
 
     <section id="contacts" class="section">
-  <h2>Контакты</h2>
-  <p class="section-subtitle">Свяжитесь с нами — мы ответим в ближайшее время.</p>
+      <h2>Контакты</h2>
+      <p class="section-subtitle">Свяжитесь с нами — мы ответим в ближайшее время.</p>
 
-  <form id="contactForm" novalidate>
-    <div class="form-group">
-      <label for="name">Имя</label>
-      <input type="text" id="name" name="name" placeholder="Ваше имя" required>
-      <span class="error-msg"></span>
-    </div>
+      <form id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Имя</label>
+          <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+          <span class="error-msg"></span>
+        </div>
 
-    <div class="form-group">
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="example@mail.ru" required>
-      <span class="error-msg"></span>
-    </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="example@mail.ru" required>
+          <span class="error-msg"></span>
+        </div>
 
-    <div class="form-group">
-      <label for="message">Сообщение</label>
-      <textarea id="message" name="message" placeholder="Введите ваше сообщение" required></textarea>
-      <span class="error-msg"></span>
-    </div>
+        <div class="form-group">
+          <label for="message">Сообщение</label>
+          <textarea id="message" name="message" placeholder="Введите ваше сообщение" required></textarea>
+          <span class="error-msg"></span>
+        </div>
 
-    <button type="submit" class="btn">Отправить</button>
-  </form>
+        <button type="submit" class="btn">Отправить</button>
+      </form>
 
-  <div class="contact-info">
-    <p><strong>Email:</strong> support@techstore.ru</p>
-    <p><strong>Телефон:</strong> +7 (999) 123-45-67</p>
-    <p><strong>Адрес:</strong> г. Москва, ул. Технологий, 12</p>
-  </div>
-</section>
+      <div class="contact-info">
+        <p><strong>Email:</strong> support@techstore.ru</p>
+        <p><strong>Телефон:</strong> +7 (999) 123-45-67</p>
+        <p><strong>Адрес:</strong> г. Москва, ул. Технологий, 12</p>
+      </div>
+    </section>
 
   </main>
 
